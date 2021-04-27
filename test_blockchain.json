@@ -1,0 +1,75 @@
+{
+	"info": {
+		"_postman_id": "fb1c11c9-e96d-4a17-ab71-fa90a4649d54",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get full chain",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/get_blockchain",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"get_blockchain"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Mine a Block test",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/mine_block",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"mine_block"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Is valid?",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:5000/is_valid",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "5000",
+					"path": [
+						"is_valid"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
